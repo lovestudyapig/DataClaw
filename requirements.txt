@@ -1,0 +1,15 @@
+# ============================================================
+# Claw — 核心依赖（仅包含实际使用的包）
+# 安装: pip install -r requirements.txt
+# ============================================================
+
+# ---- LangChain 生态 ----
+langchain-core>=0.3.0                  # 基础消息/工具抽象
+langchain-deepseek>=0.1.0              # DeepSeek 模型集成
+langchain-community>=0.3.0             # 社区集成（含 ChatTongyi/Qwen）
+langgraph>=0.2.0                       # ReAct Agent 框架
+langchain-experimental>=0.3.0          # Python REPL 工具
+
+# ---- 系统 ----
+python-dotenv>=1.0.0                   # 环境变量加载
+watchdog>=6.0.0                        # 文件系统监听（记忆自动保存）

@@ -1,0 +1,17 @@
+# 环境变量
+.env
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS 系统文件
+.DS_Store
+
+# 输出/临时文件
+output/
+*.log
+
+# SSH 脚本
+*.exp
